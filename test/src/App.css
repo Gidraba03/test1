@@ -1,0 +1,92 @@
+.app-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 97%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.form-container label {
+  margin-right: 10px;
+  color: black;
+}
+
+.form-container input[type="text"] {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-row{
+  width: 180px;
+  float: left;
+  margin: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 8px 16px;
+  background-color: #4169E1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px auto;
+  width: 97%;
+}
+
+.box p {
+  margin: 40px;
+  color: black;
+  width: 180px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box .box-content {
+  flex: 1;
+}
+
+.box .btn-remove {
+  margin-left: auto;
+}
+
+p {
+  color: black;
+}
+
+.error-message {
+  color: greenyellow;
+  margin-top: 10px;
+}
+.form-container .btn-primary{
+  margin-left: 100px;
+  margin-top: 33px;
+}
